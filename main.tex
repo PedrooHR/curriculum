@@ -1,0 +1,85 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking} % CV style: 'banking', 'classic', 'casual', 'oldstyle', etc.
+\moderncvcolor{blue}    % Theme color: blue, green, red, etc.
+
+% Basic packages
+\usepackage[scale=0.75]{geometry}
+
+% Personal Information
+\name{\huge Pedro Henrique}{Di Francia Rosso\vspace{0.5em}}
+\address{Campinas}{São Paulo}{Brasil}
+\email{pedrohrosso@gmail.com}
+\social[linkedin]{phrosso}
+\social[github]{PedrooHR}
+
+% Document start
+\begin{document}
+
+% Header
+\makecvtitle
+
+% Professional Summary
+\vspace{-1em}
+\section{Professional Summary}
+Researcher specializing in High-Performance Computing (HPC) with a focus on FPGA acceleration and distributed programming models. Experience in software development, parallel computing, accelerated computing, and fault tolerance for HPC clusters.
+
+% Professional Experience
+\section{Experience}
+\cventry{2021--Present}{Ph.D. Fellow}{Computer Systems Laboratory, Unicamp}{Campinas, Brazil}{}{
+Research on abstractions for FPGA acceleration using OpenMP.\\
+- Achieved up to 41\% reduction in programming effort for distributed applications [Publication 1].}
+\vspace{.3em}
+\cventry{2023}{Research Intern}{Research Labs, Advanced Micro Devices (AMD)}{Dublin, Ireland}{}{
+Integrated Ph.D. research with AMD’s FPGA networking tools (ACCL).\\
+- Demonstrated up to 41.5\% improvement in bandwidth usage after integrating ACCL [Publication 1].}
+\vspace{.3em}
+\cventry{2019--2021}{M.Sc. Fellow}{Heuristics Analysis and Learning Laboratory, UFABC}{São Paulo, Brazil}{}{
+Developed implementation-independent fault tolerance tools for MPI.\\
+- Achieved up to 30\% message reduction during Fault Tolerance broadcasts [Publication 3].}
+\vspace{.3em}
+\cventry{2017--2018}{Undergraduate Researcher}{Robotics and Automation Laboratory, UFSC}{Araranguá, Brazil}{}{
+Developed a wearable electromyography device for outdoor measurements with wireless sensor networks.}
+
+% Education
+\section{Education}
+\cventry{2021--Present}{Ph.D. in Computer Science}{Unicamp}{Campinas, Brazil}{}{
+\textit{Title}: Integrating Multi-FPGA Acceleration to OpenMP Distributed Computing.\\
+FAPESP Fellow (Grant No. 2021/09355-2).}
+
+\vspace{.3em}
+\cventry{2019--2021}{M.Sc. in Computer Science}{UFABC}{São Paulo, Brazil}{}{
+\textit{Title}: OCFTL: An MPI Implementation-Independent Fault Tolerance Library for Task-Based Applications.\\
+Finalist for Best Thesis Award (WSCAD-CTD 2021).}
+
+\vspace{.3em}
+\cventry{2014--2018}{B.Sc. in Computer Engineering}{UFSC}{Araranguá, Brazil}{}{
+\textit{Title}: Elastic Maps Based Image Recoloring for Dichromats.\\
+Awarded Best Academic Performance (CREA-SC and UFSC, GPA: 9.04/10).}
+
+\vspace{1em}
+% Technical Skills
+\section{Technical Skills}
+\cvitem{Programming Languages}{C/C++, Python, Shell, Verilog, OpenMP, MPI, CUDA, HLS.}
+\cvitem{Tools}{Git, Docker, Linux, Visual Studio Code, LaTeX, SSH.}
+\cvitem{Expertise}{Parallel and Distributed Computing, HPC, FPGA Acceleration, Fault Tolerance.}
+
+% Selected Publications
+\section{Selected Publications}
+\cvitem{[1]}{\textbf{P. H. Rosso}, L. Petrica, N. J. Lisa, et al. \textit{Integrating Multi-FPGA Acceleration to OpenMP Distributed Computing}. IWOMP 2024.}
+\cvitem{[2]}{\textbf{H. Yviquel}, M. Pereira, E. Francesquini, et al. \textit{The OpenMP cluster programming model}. ICPP 2022.}
+\cvitem{[3]}{\textbf{P. H. Rosso}, E. Francesquini. \textit{OCFTL: An MPI Implementation-Independent Fault Tolerance Library}. CARLA 2021.}
+\cvitem{}{For a complete list of publications, please visit my \href{https://scholar.google.com/citations?user=rtONezgAAAAJ}{Google Scholar profile}.}
+
+% Awards and Recognitions
+\section{Awards and Recognitions}
+\cvitem{2019}{\textbf{Best Academic Performance} (UFSC \& CREA-SC): Top student in Computer Engineering.}
+\cvitem{2020/2021}{\textbf{Honorable Mentions} (ERAD-SP): Best graduate papers.}
+
+% Additional Activities
+\section{Additional Activities}
+\cvitem{Tutorials}{\\ 
+- \textbf{2023:} Hands-on workshop on distributed FPGA acceleration using OpenMP (XII INFIERI School, Brazil).\\
+- \textbf{2024:} Introduction to distributed FPGA acceleration (XVI Santos Dumont Summer School, remote).}
+
+% End of document
+\end{document}
